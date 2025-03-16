@@ -20,8 +20,12 @@ public class DaysEnum {
                 case FRIDAY:
                     System.out.println("TGIF!");
                     break;
+                case SATURDAY:
+                    System.out.println("It is the weekend");
+                    break;
                 default:
                     System.out.println("Just another day.");
+                
             }
 
             // Iterating over enum constants

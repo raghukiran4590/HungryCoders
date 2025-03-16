@@ -10,6 +10,10 @@ abstract class AbstractKeyword {
         System.out.println(num);
     }
 
+    void display() {
+        System.out.println("Concrete Method in Abstract class");
+    }
+
 }
 
 class ConcreteClass extends AbstractKeyword {
@@ -20,6 +24,7 @@ class ConcreteClass extends AbstractKeyword {
         System.out.println(num);
         printNum();
 //        num = 100; // Final Variable cannot be reassigned
+        display();
     }
 
 
@@ -31,5 +36,6 @@ class ConcreteClass extends AbstractKeyword {
     public static void main(String[] args) {
         ConcreteClass concrete = new ConcreteClass();
         concrete.abstractMethod();
+
     }
 }
