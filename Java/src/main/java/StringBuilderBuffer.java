@@ -4,7 +4,7 @@ public class StringBuilderBuffer {
 
     public static void main(String[] args) {
         //StringBuilder can be replaced with StringBuffer, the functionality remains same.
-        // the minimum soze starts with 16 and then adds the extra characters to 16 and sums the final length.
+        // the minimum size starts with 16 and then adds the extra characters to 16 and sums the final length.
         StringBuffer sb = new StringBuffer(); //Can be replaced with StringBuilder but it is not inherently thread safe
 //        sb.append("World");
 //        sb.insert(0, "Hello ");
